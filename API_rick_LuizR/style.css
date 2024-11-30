@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 15px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+.styles-content.active {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-top: 55px;
+
+  width: 80%;
+  border-radius: 20px;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 1px 1px 20px 3px black;
+}
+
+img {
+  border-radius: 20px 0 0 20px;
+}
